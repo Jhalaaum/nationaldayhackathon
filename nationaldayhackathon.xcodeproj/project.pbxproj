@@ -12,6 +12,8 @@
 		6C48AD542A6B774F0004B35F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C48AD532A6B774F0004B35F /* ContentView.swift */; };
 		6C48AD562A6B77500004B35F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C48AD552A6B77500004B35F /* Assets.xcassets */; };
 		6C48AD592A6B77500004B35F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C48AD582A6B77500004B35F /* Preview Assets.xcassets */; };
+		6C7826232A6B83240018F107 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7826222A6B83240018F107 /* MapView.swift */; };
+		6C7826252A6B91540018F107 /* MerlionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7826242A6B91540018F107 /* MerlionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		6C48AD532A6B774F0004B35F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6C48AD552A6B77500004B35F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C48AD582A6B77500004B35F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C7826222A6B83240018F107 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		6C7826242A6B91540018F107 /* MerlionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerlionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 		6C48AD502A6B774F0004B35F /* nationaldayhackathon */ = {
 			isa = PBXGroup;
 			children = (
+				6C7826222A6B83240018F107 /* MapView.swift */,
 				6C48AD512A6B774F0004B35F /* nationaldayhackathonApp.swift */,
+				6C7826242A6B91540018F107 /* MerlionView.swift */,
 				1A2F79D92A6B7B9E00459BA1 /* HawkerFoodView.swift */,
 				6C48AD532A6B774F0004B35F /* ContentView.swift */,
 				6C48AD552A6B77500004B35F /* Assets.xcassets */,
@@ -141,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C48AD542A6B774F0004B35F /* ContentView.swift in Sources */,
+				6C7826232A6B83240018F107 /* MapView.swift in Sources */,
+				6C7826252A6B91540018F107 /* MerlionView.swift in Sources */,
 				6C48AD522A6B774F0004B35F /* nationaldayhackathonApp.swift in Sources */,
 				1A2F79DA2A6B7B9E00459BA1 /* HawkerFoodView.swift in Sources */,
 			);
