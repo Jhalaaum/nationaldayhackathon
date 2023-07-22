@@ -26,7 +26,7 @@ struct Merlion: View {
                 .padding()
             
         }
-        .padding()
+        .navigationTitle("Merlion History")
     }
 }
 

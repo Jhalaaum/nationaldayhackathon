@@ -9,14 +9,15 @@ struct SingaporeFlyerView: View {
                 .frame(width: 200, height: 200)
             
             Text("Singapore Flyer")
-                .font(.headline)
-            
+                .font(.title)
+                .fontWeight(.bold)
+                .padding()
+
             Text("The Singapore Flyer is a giant Ferris wheel that opened in 2008. It offers panoramic views of the city and is one of the tallest Ferris wheels in the world.")
                 .font(.body)
-                .foregroundColor(.secondary)
+                .multilineTextAlignment(.center)
                 .padding()
-            
-            Spacer()
+
         }
         .navigationTitle("Singapore Flyer History")
     }

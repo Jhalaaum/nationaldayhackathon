@@ -9,14 +9,15 @@ struct MarinaBaySandsView: View {
                 .frame(width: 200, height: 200)
             
             Text("Marina Bay Sands")
-                .font(.headline)
-            
+                .font(.title)
+                .fontWeight(.bold)
+                .padding()
+
             Text("Marina Bay Sands is an iconic integrated resort that opened in 2010. It consists of a hotel, a casino, shopping malls, and the famous rooftop infinity pool, offering breathtaking views of Singapore's skyline.")
                 .font(.body)
-                .foregroundColor(.secondary)
+                .multilineTextAlignment(.center)
                 .padding()
-            
-            Spacer()
+
         }
         .navigationTitle("Marina Bay Sands History")
     }

@@ -9,14 +9,15 @@ struct FloatingAppleOfficeView: View {
                 .frame(width: 200, height: 200)
             
             Text("Floating Apple Office")
-                .font(.headline)
-            
+                .font(.title)
+                .fontWeight(.bold)
+                .padding()
+
             Text("The Floating Apple Office is a nickname for Apple's Singapore office, located at the Marina Bay Sands. It gained attention for its unique design, resembling a floating sphere on the water.")
                 .font(.body)
-                .foregroundColor(.secondary)
+                .multilineTextAlignment(.center)
                 .padding()
-            
-            Spacer()
+
         }
         .navigationTitle("Floating Apple Office History")
     }

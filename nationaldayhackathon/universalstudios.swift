@@ -9,14 +9,15 @@ struct UniversalStudiosView: View {
                 .frame(width: 200, height: 200)
             
             Text("Universal Studios")
-                .font(.headline)
-            
+                .font(.title)
+                .fontWeight(.bold)
+                .padding()
+
             Text("Universal Studios Singapore is a theme park located on Sentosa Island. It opened in 2010 and offers visitors a chance to experience movie-themed rides and attractions.")
                 .font(.body)
-                .foregroundColor(.secondary)
+                .multilineTextAlignment(.center)
                 .padding()
-            
-            Spacer()
+
         }
         .navigationTitle("Universal Studios History")
     }

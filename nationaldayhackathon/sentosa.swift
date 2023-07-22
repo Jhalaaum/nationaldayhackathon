@@ -7,16 +7,17 @@ struct SentosaView: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 200, height: 200)
-            
+
             Text("Sentosa")
-                .font(.headline)
-            
+                .font(.title)
+                .fontWeight(.bold)
+                .padding()
+
             Text("Sentosa is a popular resort island in Singapore, known for its beaches, attractions, and entertainment options. It has been developed into a major tourist destination.")
                 .font(.body)
-                .foregroundColor(.secondary)
+                .multilineTextAlignment(.center)
                 .padding()
-            
-            Spacer()
+
         }
         .navigationTitle("Sentosa History")
     }

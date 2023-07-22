@@ -9,14 +9,15 @@ struct GardensByTheBayView: View {
                 .frame(width: 200, height: 200)
             
             Text("Gardens By The Bay")
-                .font(.headline)
-            
+                .font(.title)
+                .fontWeight(.bold)
+                .padding()
+
             Text("Gardens By The Bay is a large public park that features futuristic Supertrees and beautiful gardens. It was opened in 2012 as part of Singapore's efforts to enhance its green spaces and promote sustainability.")
                 .font(.body)
-                .foregroundColor(.secondary)
+                .multilineTextAlignment(.center)
                 .padding()
-            
-            Spacer()
+
         }
         .navigationTitle("Gardens By The Bay History")
     }

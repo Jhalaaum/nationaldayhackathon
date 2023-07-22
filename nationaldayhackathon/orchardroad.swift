@@ -9,14 +9,15 @@ struct OrchardRoadView: View {
                 .frame(width: 200, height: 200)
             
             Text("Orchard Road")
-                .font(.headline)
-            
+                .font(.title)
+                .fontWeight(.bold)
+                .padding()
+
             Text("Orchard Road is a famous shopping street in Singapore, lined with numerous retail outlets, restaurants, and entertainment venues. It is a major shopping and lifestyle destination for both locals and tourists.")
                 .font(.body)
-                .foregroundColor(.secondary)
+                .multilineTextAlignment(.center)
                 .padding()
-            
-            Spacer()
+
         }
         .navigationTitle("Orchard Road History")
     }

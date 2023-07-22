@@ -13,7 +13,6 @@ struct Location: Identifiable {
     let name: String
     let coordinate: CLLocationCoordinate2D
 }
-
 struct MapView: View {
     let locations = [
         Location(name: "Merlion", coordinate: CLLocationCoordinate2D(latitude: 1.2867, longitude: 103.8545)),
@@ -29,7 +28,6 @@ struct MapView: View {
     ]
     @State private var mapRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 1.3521, longitude: 103.8198), span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5))
     
-    
     var body: some View {
         NavigationView {
             Map(coordinateRegion: $mapRegion, annotationItems: locations) { location in
@@ -38,15 +36,48 @@ struct MapView: View {
                         if location.name == "Merlion" {
                             Merlion()
                         }
+                        if location.name == "Gardens By The Bay"{
+                            GardensByTheBayView()
+                        }
+                        if location.name == "Marina Bay Sands"{
+                            MarinaBaySandsView()
+                        }
+                        if location.name == "Esplanade"{
+                            EsplanadeView()
+                        }
+                        if location.name == "Floating Apple Office"{
+                            FloatingAppleOfficeView()
+                        }
+                        if location.name == "Universal Studios"{
+                            UniversalStudiosView()
+                        }
+                        if location.name == "Sentosa"{
+                            SentosaView()
+                        }
+                        if location.name == "Singapore Flyer"{
+                            SingaporeFlyerView()
+                        }
+                        if location.name == "Singapore Zoo"{
+                            SingaporeZooView()
+                        }
+                        if location.name == "Orchard Road"{
+                            OrchardRoadView()
+                        }
+                        
                     } label: {
                         Image(systemName: "mappin.circle.fill")
                             .resizable()
                             .foregroundColor(.red)
                     }
+                    
                 }
+                
+                
             }
+            
         }
     }
+    
 }
 
 
