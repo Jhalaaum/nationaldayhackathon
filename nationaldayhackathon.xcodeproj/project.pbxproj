@@ -14,6 +14,15 @@
 		6C48AD592A6B77500004B35F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C48AD582A6B77500004B35F /* Preview Assets.xcassets */; };
 		6C7826232A6B83240018F107 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7826222A6B83240018F107 /* MapView.swift */; };
 		6C7826252A6B91540018F107 /* MerlionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7826242A6B91540018F107 /* MerlionView.swift */; };
+		6C7826272A6BA9920018F107 /* gardensByTheBayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7826262A6BA9920018F107 /* gardensByTheBayView.swift */; };
+		6C7826292A6BA99F0018F107 /* marinabaysands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7826282A6BA99F0018F107 /* marinabaysands.swift */; };
+		6C78262B2A6BA9BE0018F107 /* esplanade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C78262A2A6BA9BE0018F107 /* esplanade.swift */; };
+		6C78262D2A6BA9CF0018F107 /* floatingappleoffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C78262C2A6BA9CF0018F107 /* floatingappleoffice.swift */; };
+		6C78262F2A6BA9DD0018F107 /* universalstudios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C78262E2A6BA9DD0018F107 /* universalstudios.swift */; };
+		6C7826312A6BA9E90018F107 /* singaporeflyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7826302A6BA9E90018F107 /* singaporeflyer.swift */; };
+		6C7826332A6BA9F50018F107 /* sentosa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7826322A6BA9F50018F107 /* sentosa.swift */; };
+		6C7826352A6BAA070018F107 /* singaporezoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7826342A6BAA070018F107 /* singaporezoo.swift */; };
+		6C7826372A6BAA150018F107 /* orchardroad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7826362A6BAA150018F107 /* orchardroad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +34,15 @@
 		6C48AD582A6B77500004B35F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6C7826222A6B83240018F107 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		6C7826242A6B91540018F107 /* MerlionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerlionView.swift; sourceTree = "<group>"; };
+		6C7826262A6BA9920018F107 /* gardensByTheBayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gardensByTheBayView.swift; sourceTree = "<group>"; };
+		6C7826282A6BA99F0018F107 /* marinabaysands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marinabaysands.swift; sourceTree = "<group>"; };
+		6C78262A2A6BA9BE0018F107 /* esplanade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esplanade.swift; sourceTree = "<group>"; };
+		6C78262C2A6BA9CF0018F107 /* floatingappleoffice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floatingappleoffice.swift; sourceTree = "<group>"; };
+		6C78262E2A6BA9DD0018F107 /* universalstudios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = universalstudios.swift; sourceTree = "<group>"; };
+		6C7826302A6BA9E90018F107 /* singaporeflyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singaporeflyer.swift; sourceTree = "<group>"; };
+		6C7826322A6BA9F50018F107 /* sentosa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sentosa.swift; sourceTree = "<group>"; };
+		6C7826342A6BAA070018F107 /* singaporezoo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singaporezoo.swift; sourceTree = "<group>"; };
+		6C7826362A6BAA150018F107 /* orchardroad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orchardroad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +75,15 @@
 		6C48AD502A6B774F0004B35F /* nationaldayhackathon */ = {
 			isa = PBXGroup;
 			children = (
+				6C7826362A6BAA150018F107 /* orchardroad.swift */,
+				6C7826342A6BAA070018F107 /* singaporezoo.swift */,
+				6C7826322A6BA9F50018F107 /* sentosa.swift */,
+				6C7826302A6BA9E90018F107 /* singaporeflyer.swift */,
+				6C78262E2A6BA9DD0018F107 /* universalstudios.swift */,
+				6C78262C2A6BA9CF0018F107 /* floatingappleoffice.swift */,
+				6C78262A2A6BA9BE0018F107 /* esplanade.swift */,
+				6C7826282A6BA99F0018F107 /* marinabaysands.swift */,
+				6C7826262A6BA9920018F107 /* gardensByTheBayView.swift */,
 				6C7826222A6B83240018F107 /* MapView.swift */,
 				6C48AD512A6B774F0004B35F /* nationaldayhackathonApp.swift */,
 				6C7826242A6B91540018F107 /* MerlionView.swift */,
@@ -147,10 +174,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C48AD542A6B774F0004B35F /* ContentView.swift in Sources */,
+				6C7826352A6BAA070018F107 /* singaporezoo.swift in Sources */,
+				6C7826292A6BA99F0018F107 /* marinabaysands.swift in Sources */,
 				6C7826232A6B83240018F107 /* MapView.swift in Sources */,
 				6C7826252A6B91540018F107 /* MerlionView.swift in Sources */,
 				6C48AD522A6B774F0004B35F /* nationaldayhackathonApp.swift in Sources */,
+				6C7826332A6BA9F50018F107 /* sentosa.swift in Sources */,
 				1A2F79DA2A6B7B9E00459BA1 /* HawkerFoodView.swift in Sources */,
+				6C7826272A6BA9920018F107 /* gardensByTheBayView.swift in Sources */,
+				6C78262D2A6BA9CF0018F107 /* floatingappleoffice.swift in Sources */,
+				6C78262B2A6BA9BE0018F107 /* esplanade.swift in Sources */,
+				6C7826372A6BAA150018F107 /* orchardroad.swift in Sources */,
+				6C7826312A6BA9E90018F107 /* singaporeflyer.swift in Sources */,
+				6C78262F2A6BA9DD0018F107 /* universalstudios.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
